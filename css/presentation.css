@@ -221,6 +221,15 @@ a:focus {
 */
 #overview { display: none }
 
+#track-title-slide { 
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: unset;
+}
+
 /*
     We also make other steps visible and give them a pointer cursor using the
     `impress-on-` class.
