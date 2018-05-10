@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>Introduction to Ethereum development</title>
+    <link href="css/presentation.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+    <div class="fallback-message">
+        <p>Your browser
+            <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this
+            presentation.</p>
+        <p>For the best experience please use the latest
+            <b>Chrome</b>,
+            <b>Safari</b> or
+            <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">
+        <div id="intro" class="step slide" data-x="-1000" data-y="-1500">
+            <q>Увод у развој Етереум апликација</q>
+        </div>
+
+        <div id="about-us" class="step slide" data-x="0" data-y="-1500">
+            <div class="about-us-content">
+                <p>Nemanja Jevremovic</p>
+                <img src="images/nemanja.jpg" height="256" width="256" />
+                <p>Full stack dev...</p>
+            </div>
+            <div class="about-us-content">
+                <p>Ognjen Kurtic</p>
+                <img src="images/ognjen.jpg" height="256" width="256" />
+                <p>Full stack dev...</p>
+            </div>
+        </div>
+
+        <div class="step slide" data-x="1000" data-y="-1500">
+            <q>Шта је то блокчејн?</q>
+        </div>
+
+        <div class="step slide" data-x="2000" data-y="-1500">
+            <q>Блокчејн је дистрибуирани запис стања код којег чворови у мрежи консензусом одлучују о промени стања и где је
+                свакa промена заувек сачувана</q>
+        </div>
+
+        <!--
+            
+            So to summarize of all the possible attributes used to position presentation steps, we have:
+            
+            * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
+                the canvas in pixels; their default value is 0;
+            * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
+                the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
+                are exactly the same;
+            * `data-scale` - defines the scale of step element; default value is 1
+            
+            These values are used by impress.js in CSS transformation functions, so for more information consult
+            CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
+            
+        -->
+        <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
+        </div>
+
+    </div>
+
+    <!--
+        This is a UI plugin. You can read more about plugins in src/plugins/README.md.
+        For now, I'll just tell you that this adds some graphical controls to navigate the
+        presentation. In the CSS file you can style them as you want. We've put them bottom right.
+    -->
+    <div id="impress-toolbar"></div>
+    </script>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+
+
+</body>
+
+</html>
