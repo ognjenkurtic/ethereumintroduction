@@ -221,7 +221,7 @@ a:focus {
 */
 #overview { display: none }
 
-#track-title-slide { 
+.track-title-slide { 
     background-color: transparent;
     display: flex;
     justify-content: center;
