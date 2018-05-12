@@ -229,6 +229,11 @@ a:focus {
     box-shadow: unset;
 }
 
+#blockchainlisa-title {
+    display: flex;
+    flex-direction: column;
+}
+
 /*
     We also make other steps visible and give them a pointer cursor using the
     `impress-on-` class.
