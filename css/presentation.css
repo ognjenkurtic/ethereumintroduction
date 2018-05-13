@@ -235,6 +235,10 @@ a:focus {
     flex-direction: column;
 }
 
+.blockchainlisa-name {
+    font-family: 'Satisfy', cursive;
+}
+
 /*
     We also make other steps visible and give them a pointer cursor using the
     `impress-on-` class.
